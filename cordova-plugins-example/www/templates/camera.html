@@ -1,0 +1,14 @@
+<ion-view view-title="Camera">
+
+  <ion-nav-bar align-title="center">
+
+    <ion-nav-buttons side="left">
+      <button class="button button-icon icon ion-android-arrow-back" ui-sref="dashboard"></button>
+    </ion-nav-buttons>
+    {{name}
+  </ion-nav-bar>
+  <ion-content>
+    <button class="button button-full button-positive" ng-click="takePicture()">Take a Picture</button>
+    <img id="myImage">
+  </ion-content>
+</ion-view>
